@@ -132,10 +132,32 @@
                         </div>
                     </div>
                     <div class="lg:hidden mr-4">
-                        <button class="text-gray-300 hover:text-white p-2"><i class="fa-solid fa-bars text-xl"></i></button>
+                        <button onclick="toggleMobileMenu()" class="text-gray-300 hover:text-white p-2"><i class="fa-solid fa-bars text-xl"></i></button>
                     </div>
                 </div>
             </div>
+        </div>
+
+        <!-- Mobile Menu Container -->
+        <div id="mobileMenu" class="hidden lg:hidden bg-corporate-900/95 backdrop-blur-lg border-b border-white/10 px-4 py-3 space-y-1 absolute w-full left-0 top-20 shadow-xl z-50">
+            <button data-target="compass" class="tab-btn block w-full text-right px-4 py-2 rounded-md text-sm font-semibold transition-all duration-300 bg-white/10 text-corporate-accent shadow-[inset_0_-2px_0_0_#06b6d4]">
+                <i class="fa-regular fa-compass ml-1"></i> البوصلة
+            </button>
+            <button data-target="business-model" class="tab-btn block w-full text-right px-4 py-2 rounded-md text-sm font-semibold text-gray-300 hover:text-white hover:bg-white/5 transition-all duration-300">
+                <i class="fa-solid fa-sitemap ml-1"></i> نموذج العمل
+            </button>
+            <button data-target="investor-plan" class="tab-btn block w-full text-right px-4 py-2 rounded-md text-sm font-semibold text-gray-300 hover:text-white hover:bg-white/5 transition-all duration-300">
+                <i class="fa-solid fa-chart-line ml-1"></i> خطة المستثمرين
+            </button>
+            <button data-target="financials" class="tab-btn block w-full text-right px-4 py-2 rounded-md text-sm font-semibold text-gray-300 hover:text-white hover:bg-white/5 transition-all duration-300">
+                <i class="fa-solid fa-coins ml-1"></i> المؤشرات المالية
+            </button>
+            <button data-target="full-doc" class="tab-btn block w-full text-right px-4 py-2 rounded-md text-sm font-semibold text-gray-300 hover:text-white hover:bg-white/5 transition-all duration-300">
+                <i class="fa-regular fa-file-pdf ml-1"></i> الوثيقة الكاملة
+            </button>
+            <button data-target="references" class="tab-btn block w-full text-right px-4 py-2 rounded-md text-sm font-semibold text-gray-300 hover:text-white hover:bg-white/5 transition-all duration-300">
+                <i class="fa-solid fa-link ml-1"></i> المراجع
+            </button>
         </div>
     </nav>
 
@@ -902,35 +924,41 @@
             
             <div class="flex flex-col lg:flex-row gap-6">
                 <!-- Sidebar Navigation -->
-                <div class="w-full lg:w-1/4 flex flex-col gap-2 bg-corporate-800 p-4 rounded-xl border border-white/5 h-fit sticky top-24">
-                    <h3 class="text-white font-bold mb-4 border-b border-gray-700 pb-2">فهرس الوثيقة</h3>
-                    <button class="doc-tab-btn active text-right px-4 py-3 rounded-lg border border-corporate-accent/50 text-sm" data-target="chapter-1">
-                        الباب الأول: الألياف الضوئية.. التاريخ والتكنولوجيا
+                <div class="w-full lg:w-1/4 flex flex-col bg-corporate-800 p-4 rounded-xl border border-white/5 relative lg:sticky lg:top-24 z-10 h-auto">
+                    <button onclick="document.getElementById('tocLinks').classList.toggle('hidden')" class="w-full flex justify-between items-center text-lg font-bold text-white border-b border-gray-700 pb-2 lg:cursor-default lg:pointer-events-none">
+                        <span>فهرس الوثيقة</span>
+                        <span class="lg:hidden text-corporate-accent">▼</span>
                     </button>
-                    <button class="doc-tab-btn text-right px-4 py-3 rounded-lg border border-transparent text-gray-400 text-sm" data-target="chapter-2">
-                        الباب الثاني: الكيان الأم ونموذج الفرنشايز الكندي
-                    </button>
-                    <button class="doc-tab-btn text-right px-4 py-3 rounded-lg border border-transparent text-gray-400 text-sm" data-target="chapter-3">
-                        الباب الثالث: دراسة المنتجات والحلول
-                    </button>
-                    <button class="doc-tab-btn text-right px-4 py-3 rounded-lg border border-transparent text-gray-400 text-sm" data-target="chapter-4">
-                        الباب الرابع: البيئة الكلية للسوق المصري
-                    </button>
-                    <button class="doc-tab-btn text-right px-4 py-3 rounded-lg border border-transparent text-gray-400 text-sm" data-target="chapter-5">
-                        الباب الخامس: تحليل العملاء والمنافسين
-                    </button>
-                    <button class="doc-tab-btn text-right px-4 py-3 rounded-lg border border-transparent text-gray-400 text-sm" data-target="chapter-6">
-                        الباب السادس: الإطار القانوني والاعتمادات
-                    </button>
-                    <button class="doc-tab-btn text-right px-4 py-3 rounded-lg border border-transparent text-gray-400 text-sm" data-target="chapter-7">
-                        الباب السابع: المقر والعمليات
-                    </button>
-                    <button class="doc-tab-btn text-right px-4 py-3 rounded-lg border border-transparent text-gray-400 text-sm" data-target="chapter-8">
-                        الباب الثامن: اللوجستيات، الشحن، والجمارك
-                    </button>
-                    <button class="doc-tab-btn text-right px-4 py-3 rounded-lg border border-transparent text-gray-400 text-sm" data-target="chapter-9">
-                        الباب التاسع: استراتيجية الدخول للسوق
-                    </button>
+                    
+                    <div id="tocLinks" class="hidden lg:flex flex-col gap-2 mt-4">
+                        <button onclick="if(window.innerWidth < 1024) document.getElementById('tocLinks').classList.add('hidden');" class="doc-tab-btn active text-right px-4 py-3 rounded-lg border border-corporate-accent/50 text-sm" data-target="chapter-1">
+                            الباب الأول: الألياف الضوئية.. التاريخ والتكنولوجيا
+                        </button>
+                        <button onclick="if(window.innerWidth < 1024) document.getElementById('tocLinks').classList.add('hidden');" class="doc-tab-btn text-right px-4 py-3 rounded-lg border border-transparent text-gray-400 text-sm" data-target="chapter-2">
+                            الباب الثاني: الكيان الأم ونموذج الفرنشايز الكندي
+                        </button>
+                        <button onclick="if(window.innerWidth < 1024) document.getElementById('tocLinks').classList.add('hidden');" class="doc-tab-btn text-right px-4 py-3 rounded-lg border border-transparent text-gray-400 text-sm" data-target="chapter-3">
+                            الباب الثالث: دراسة المنتجات والحلول
+                        </button>
+                        <button onclick="if(window.innerWidth < 1024) document.getElementById('tocLinks').classList.add('hidden');" class="doc-tab-btn text-right px-4 py-3 rounded-lg border border-transparent text-gray-400 text-sm" data-target="chapter-4">
+                            الباب الرابع: البيئة الكلية للسوق المصري
+                        </button>
+                        <button onclick="if(window.innerWidth < 1024) document.getElementById('tocLinks').classList.add('hidden');" class="doc-tab-btn text-right px-4 py-3 rounded-lg border border-transparent text-gray-400 text-sm" data-target="chapter-5">
+                            الباب الخامس: تحليل العملاء والمنافسين
+                        </button>
+                        <button onclick="if(window.innerWidth < 1024) document.getElementById('tocLinks').classList.add('hidden');" class="doc-tab-btn text-right px-4 py-3 rounded-lg border border-transparent text-gray-400 text-sm" data-target="chapter-6">
+                            الباب السادس: الإطار القانوني والاعتمادات
+                        </button>
+                        <button onclick="if(window.innerWidth < 1024) document.getElementById('tocLinks').classList.add('hidden');" class="doc-tab-btn text-right px-4 py-3 rounded-lg border border-transparent text-gray-400 text-sm" data-target="chapter-7">
+                            الباب السابع: المقر والعمليات
+                        </button>
+                        <button onclick="if(window.innerWidth < 1024) document.getElementById('tocLinks').classList.add('hidden');" class="doc-tab-btn text-right px-4 py-3 rounded-lg border border-transparent text-gray-400 text-sm" data-target="chapter-8">
+                            الباب الثامن: اللوجستيات، الشحن، والجمارك
+                        </button>
+                        <button onclick="if(window.innerWidth < 1024) document.getElementById('tocLinks').classList.add('hidden');" class="doc-tab-btn text-right px-4 py-3 rounded-lg border border-transparent text-gray-400 text-sm" data-target="chapter-9">
+                            الباب التاسع: استراتيجية الدخول للسوق
+                        </button>
+                    </div>
                 </div>
                 
                 <!-- Content Area -->
@@ -3844,6 +3872,27 @@
             .goog-te-banner-frame { display: none !important; }
         `;
         document.head.appendChild(style);
+    </script>
+
+    <script>
+        function toggleMobileMenu() {
+            var menu = document.getElementById('mobileMenu');
+            if (menu) {
+                menu.classList.toggle('hidden');
+            }
+        }
+
+        // Close the mobile menu automatically when a link inside it is clicked
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('#mobileMenu a, #mobileMenu button').forEach(link => {
+                link.addEventListener('click', () => {
+                    var menu = document.getElementById('mobileMenu');
+                    if (menu && !menu.classList.contains('hidden')) {
+                        menu.classList.add('hidden');
+                    }
+                });
+            });
+        });
     </script>
 </body>
 </html>
