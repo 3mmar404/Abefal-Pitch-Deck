@@ -1,66 +1,63 @@
 <div align="center">
+📊 Abefal — Pitch Deck
+An interactive, single-page business presentation for Abefal Global Tech — detailing the exclusive franchise strategy for Novker products in Egypt, with comprehensive market analysis, financial models, and operational plans.
 
-# 📊 Abefal — Pitch Deck
+https://img.shields.io/badge/Live_Demo-View_Pitch-0A7E8C?style=for-the-badge&logo=githubpages&logoColor=white
 
-**An interactive, single-page business presentation for Abefal Global Tech — detailing the exclusive franchise strategy for Novker products in Egypt, with comprehensive market analysis, financial models, and operational plans.**
-
-[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Pitch-0A7E8C?style=for-the-badge&logo=githubpages&logoColor=white)](https://3mmar404.github.io/Abefal-Pitch-Deck//)
-
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](#-tech-stack)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](#-tech-stack)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](#-tech-stack)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38BDF8?style=flat-square&logo=tailwindcss&logoColor=white)](#-tech-stack)
-[![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white)](#-tech-stack)
-[![License: MIT](https://img.shields.io/badge/License-MIT-3DA639?style=flat-square)](#-license)
+https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white
+https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white
+https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black
+https://img.shields.io/badge/Tailwind_CSS-38BDF8?style=flat-square&logo=tailwindcss&logoColor=white
+https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white
+https://img.shields.io/badge/License-MIT-3DA639?style=flat-square
 
 </div>
-
----
-
-## Overview
-
-**Abefal Pitch Deck** is a comprehensive, single-page web presentation designed to showcase the establishment of the Egyptian branch of Abefal Global Tech — the exclusive franchisee for Novker fiber optic fusion splicers and testing equipment in the Middle East. The deck delivers a complete business narrative covering executive summary, business model canvas, investor plan, financial projections, legal compliance, operational strategy, and detailed market analysis.
+Overview
+Abefal Pitch Deck is a comprehensive, single-page web presentation designed to showcase the establishment of the Egyptian branch of Abefal Global Tech — the exclusive franchisee for Novker fiber optic fusion splicers and testing equipment in the Middle East. The deck delivers a complete business narrative covering executive summary, business model canvas, investor plan, financial projections, legal compliance, operational strategy, and detailed market analysis.
 
 Built with pure HTML, CSS, and JavaScript (with Tailwind CSS and Chart.js for styling and data visualization), the presentation features a multi‑tab interface, an interactive document viewer with chapter navigation, dynamic charts, and full Arabic (RTL) support. The pitch deck serves as both a living business plan and a sales enablement tool for the venture.
 
-> **Live site:** https://3mmar404.github.io/Abefal-Pitch-Deck//
+Live site: https://3mmar404.github.io/abefal-pitch-deck/
 
----
+Features
+📑 Multi‑tab presentation — six main sections: Compass (Executive Summary), Business Model, Investor Plan, Financial Indicators, Full Documentation, and References
 
-## Features
+📱 Fully responsive — optimized for desktop, tablet, and mobile devices with a collapsible navigation menu
 
-- 📑 **Multi‑tab presentation** — six main sections: Compass (Executive Summary), Business Model, Investor Plan, Financial Indicators, Full Documentation, and References
-- 📱 **Fully responsive** — optimized for desktop, tablet, and mobile devices with a collapsible navigation menu
-- 🧭 **Interactive document viewer** — chapter-based sidebar navigation for the comprehensive documentation section (9 chapters)
-- 📊 **Data visualizations** — dynamic charts powered by Chart.js (cost breakdown, revenue projections, monthly cash flow)
-- 🌍 **Multi‑language support** — integrated Google Translate toggle for Arabic, English, and German
-- 🎨 **Dark theme with accent colors** — corporate dark palette with cyan/blue accents for a premium, tech‑focused aesthetic
-- 📄 **Rich content** — detailed tables, competitor benchmarking, financial models, legal frameworks, and go‑to‑market strategies
-- ⚡ **Lightweight & fast** — no heavy frameworks; Tailwind CSS loaded via CDN, vanilla JavaScript for interactivity
+🧭 Interactive document viewer — chapter-based sidebar navigation for the comprehensive documentation section (9 chapters)
 
----
+📊 Data visualizations — dynamic charts powered by Chart.js (cost breakdown, revenue projections, monthly cash flow)
 
-## Tech Stack
+🌍 Multi‑language support — integrated Google Translate toggle for Arabic, English, and German
 
-| Layer | Technology |
-|-------|------------|
-| Markup | HTML5 (semantic, `dir="rtl"`) |
-| Styling | Tailwind CSS (via CDN) + custom CSS for scrollbars, animations, and dark theme |
-| Charts | Chart.js (via CDN) |
-| Icons | Font Awesome 6.4.0 |
-| Behavior | Vanilla JavaScript (ES6) — tab switching, mobile menu, document navigation, language toggle |
-| Translation | Google Translate API (embedded) |
-| Hosting | GitHub Pages |
+🎨 Dark theme with accent colors — corporate dark palette with cyan/blue accents for a premium, tech‑focused aesthetic
 
+📄 Rich content — detailed tables, competitor benchmarking, financial models, legal frameworks, and go‑to‑market strategies
+
+⚡ Lightweight & fast — no heavy frameworks; Tailwind CSS loaded via CDN, vanilla JavaScript for interactivity
+
+Screenshots
+Desktop View — Executive Summary (Compass)
+<div align="center"> <img src="https://via.placeholder.com/1200x600/1a1a2e/ffffff?text=Abefal+Pitch+Deck+-+Executive+Summary" alt="Abefal pitch deck - executive summary section with strategic overview cards" width="100%"> </div>
+Business Model Canvas & Financials
+<div align="center"> <img src="https://via.placeholder.com/1200x600/1a1a2e/ffffff?text=Business+Model+Canvas+and+Financial+Dashboard" alt="Business Model Canvas grid and financial dashboard with KPI metrics" width="100%"> </div>
+Full Documentation — Chapter Viewer
+<table> <tr> <td width="60%"><img src="https://via.placeholder.com/800x500/1a1a2e/ffffff?text=Documentation+with+Chapter+Navigation" alt="Documentation section with chapter navigation sidebar and rich content" width="100%"></td> <td width="40%"><img src="https://via.placeholder.com/400x500/1a1a2e/ffffff?text=Mobile+View+with+Menu" alt="Mobile responsive view with hamburger menu" width="100%"></td> </tr> </table>
+Tech Stack
+Layer	Technology
+Markup	HTML5 (semantic, dir="rtl")
+Styling	Tailwind CSS (via CDN) + custom CSS for scrollbars, animations, and dark theme
+Charts	Chart.js (via CDN)
+Icons	Font Awesome 6.4.0
+Behavior	Vanilla JavaScript (ES6) — tab switching, mobile menu, document navigation, language toggle
+Translation	Google Translate API (embedded)
+Hosting	GitHub Pages
 No build tools, no frameworks — runs directly from static files.
 
----
-
-## Getting Started
-
+Getting Started
 Clone the repository and open it locally.
 
-```bash
+bash
 # 1) Clone
 git clone https://github.com/3mmar404/abefal-pitch-deck.git
 cd abefal-pitch-deck
@@ -137,10 +134,10 @@ Push the branch (git push origin feature/your-feature)
 
 Open a Pull Request
 
-</div> ```
 License
 This project is licensed under the MIT License — see the LICENSE file for details.
 
 <div align="center">
 Designed & developed with ❤️ for the Abefal brand · © 2026 Ahmed Amar (@3mmar404)
 
+</div>
