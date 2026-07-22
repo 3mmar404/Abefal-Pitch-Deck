@@ -75,7 +75,3 @@ cd Abefal-Pitch-Deck
 
 # 2. Open directly in your browser
 # Simply double-click index.html
-
-
-📄 License
-Released under the MIT License. © 2026 3mmar404.
