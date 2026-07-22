@@ -4,7 +4,7 @@
 
 **An interactive, single-page business presentation for Abefal Global Tech — detailing the exclusive franchise strategy for Novker products in Egypt, with comprehensive market analysis, financial models, and operational plans.**
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Pitch-0A7E8C?style=for-the-badge&logo=githubpages&logoColor=white)](https://3mmar404.github.io/abefal-pitch-deck/)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Pitch-0A7E8C?style=for-the-badge&logo=githubpages&logoColor=white)](https://3mmar404.github.io/Abefal-Pitch-Deck//)
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](#-tech-stack)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](#-tech-stack)
@@ -23,7 +23,7 @@
 
 Built with pure HTML, CSS, and JavaScript (with Tailwind CSS and Chart.js for styling and data visualization), the presentation features a multi‑tab interface, an interactive document viewer with chapter navigation, dynamic charts, and full Arabic (RTL) support. The pitch deck serves as both a living business plan and a sales enablement tool for the venture.
 
-> **Live site:** https://3mmar404.github.io/abefal-pitch-deck/
+> **Live site:** https://3mmar404.github.io/Abefal-Pitch-Deck//
 
 ---
 
@@ -37,28 +37,6 @@ Built with pure HTML, CSS, and JavaScript (with Tailwind CSS and Chart.js for st
 - 🎨 **Dark theme with accent colors** — corporate dark palette with cyan/blue accents for a premium, tech‑focused aesthetic
 - 📄 **Rich content** — detailed tables, competitor benchmarking, financial models, legal frameworks, and go‑to‑market strategies
 - ⚡ **Lightweight & fast** — no heavy frameworks; Tailwind CSS loaded via CDN, vanilla JavaScript for interactivity
-
----
-
-## Screenshots
-
-### Desktop View — Executive Summary (Compass)
-<div align="center">
-  <img src="https://pub.hyperagent.com/api/published/pbf01KY5NF222_ESJ0HZZQNPC7WY8J/5ab68602-ddfe-4033-9880-4c36d0dac3f2.jpg" alt="Abefal pitch deck - executive summary section with strategic overview cards" width="100%">
-</div>
-
-### Business Model Canvas & Financials
-<div align="center">
-  <img src="https://pub.hyperagent.com/api/published/pbf01KY5NF7CZ_P1Z8DFJ993J2PPY5/87bb90b9-a1fe-48eb-8fb5-2a61b1ea804e.jpg" alt="Business Model Canvas grid and financial dashboard with KPI metrics" width="100%">
-</div>
-
-### Full Documentation — Chapter Viewer
-<table>
-  <tr>
-    <td width="60%"><img src="https://pub.hyperagent.com/api/published/pbf01KY5NF7P9_KFWA48AGE2D9AWPF/be6d1414-a4c3-498c-b003-8c25cf8074c2.jpg" alt="Documentation section with chapter navigation sidebar and rich content" width="100%"></td>
-    <td width="40%"><img src="https://pub.hyperagent.com/api/published/pbf01KY5NF8TK_70SV6STFKTNXCJ5K/ca9d3663-844c-4c94-ade5-b918c75036f6.jpg" alt="Mobile responsive view with hamburger menu" width="100%"></td>
-  </tr>
-</table>
 
 ---
 
@@ -159,10 +137,10 @@ Push the branch (git push origin feature/your-feature)
 
 Open a Pull Request
 
+</div> ```
 License
 This project is licensed under the MIT License — see the LICENSE file for details.
 
 <div align="center">
 Designed & developed with ❤️ for the Abefal brand · © 2026 Ahmed Amar (@3mmar404)
 
-</div> ```
